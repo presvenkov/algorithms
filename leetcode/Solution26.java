@@ -3,6 +3,7 @@ package leetcode;
 public class Solution26 {
 
     //Solution for Leetcode problem 26: Remove Duplicates from Sorted Array
+    //Two pointer solution, in-place O(n)
     public int removeDuplicates1(int[] nums) {
 
         int k = 1;
